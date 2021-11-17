@@ -1,0 +1,36 @@
+MoO // Set 1st number to 1
+moO // Go to #2
+MoO // Set 2nd number to 1
+mOo // Back to #1
+
+MOO // Start a loop (infinite loop)
+	OOM // Print current number
+	
+	// Make a copy of the first numb in #3
+	MMM // Copy current number to register
+	moO // Move to #3 (temp)
+	moO
+	MMM // Pop register here
+	mOo // Move back to #1
+	mOo 
+
+	// Store 2nd number in 1st position
+	moO // Move to #2
+	MMM // Store to register
+	mOo // Move to #1
+	MMM // Pop register
+
+	moO // Go to #3 (temp)
+	moO
+
+	// Use temp to add to 1st & store in 2nd
+	MOO // Loop until temp == 0
+		MOo // Decrement #3 (temp)
+		mOo // Move to #2
+		MoO // Increment 2nd
+		moO // Move to #3 (temp)
+	moo // End of loop
+	
+	mOo // Move back to #1
+	mOo
+moo // End of loop
