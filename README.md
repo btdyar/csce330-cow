@@ -1,5 +1,5 @@
-#COW Programming Language
-##How to Compile
+# COW Programming Language
+## How to Compile
 1. Clone this git repository
 2. Run `make` to compile the interpreter
 3. Use `./cowcomp.out` to run any .cow file
