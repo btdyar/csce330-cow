@@ -5,6 +5,6 @@
 3. Use `./cowcomp.out` to run any .cow file
 	1. For example 1, run `./cowcomp.out i.cow`
 	2. For example 2, run `./cowcomp.out fib.cow`
-	3. Example 3 is TBD
+	3. For example 3, run `./cowcomp.out hi.cow`
 ## NOTE THAT YOU WILL NEED SOME WAY OF COMPILING C++ CODE
 Use something like WSL (Windows Subsystem for Linux), a VM, or SSH into a lab machine.
